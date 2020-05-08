@@ -14,7 +14,7 @@ $ pkg install python2
 <br/>
 $ pkg install git
 <br/>
-$ git clone https://github.com/botolmehedi/bcloner
+$ git clone https://github.com/botolmehedi/bcloner.git
 <br/>
 $ pip2 install requests
 <br/>
@@ -22,9 +22,9 @@ $ pip2 install mechanize
 <br/>
 $ ls
 <br/>
-$ cd bclone
+$ cd bcloner
 <br/>
-$ python2 bclone.py
+$ python2 bcloner.py
 <br/>
 .........................
 <br/>
